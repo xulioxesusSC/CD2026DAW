@@ -1,20 +1,3 @@
-# Apuntes do tema 1
-
-## Ciclo de vida de programa simple
-
-## Requisitos (análisis)
-
-- Programa de terminal que pida 2 números e devolva a suma.
-
-- Escrito en C
-
-## Diseño
-
-Un solo programa chamado suma.c escrito en c
-
-## Implementación
-
-```c
 #include <stdio.h>
 
 int main() {
@@ -32,5 +15,3 @@ int main() {
 
     return 0;
 }
-```
-
