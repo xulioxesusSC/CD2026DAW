@@ -34,4 +34,12 @@ public class TresBucles {
             k++;
         }while (k <= 3);
     }
+
+    public static int sumar(int x, int y){
+        int resultado;
+
+        resultado = x + y;
+
+        return resultado;
+    }
 }
