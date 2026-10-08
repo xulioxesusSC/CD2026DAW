@@ -24,6 +24,8 @@ public class TresBucles {
             System.out.println("DO-WHILE: " + k);
             k++;
         } while (k <= 3);
+
+        int res = sumar(5, 6);
     }
 
     public static void bucleInterno(){
