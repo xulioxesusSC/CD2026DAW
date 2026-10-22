@@ -5,11 +5,14 @@ public class Chamadas {
         int numero = 10;
 
         funcion1(nome, numero);
+
+        System.out.println("hola");
     }
 
     public static void funcion1(String nome, int numero) {
         String mensaxe = "Ola, " + nome;
         int valor1 = numero + 5;
+        numero++;
 
         System.out.println("Nivel 1: " + mensaxe);
         funcion2(nome, valor1, mensaxe);
