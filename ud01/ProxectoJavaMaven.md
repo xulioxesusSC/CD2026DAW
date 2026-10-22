@@ -1,0 +1,8 @@
+- Investigar que é maven.
+- Instalar maven.
+- Crear un repo en github chamado JavaBorrar
+- En Code crear un proxecto de Java con maven
+- Executar as etapas de maven:
+    - clean
+    - compile
+    - test
