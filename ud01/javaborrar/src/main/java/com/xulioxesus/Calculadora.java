@@ -22,4 +22,8 @@ public class Calculadora {
         }
         return a / b;
     }
+
+    public double elevar(double a, double b){
+        return Math.pow(a,b);
+    }
 }

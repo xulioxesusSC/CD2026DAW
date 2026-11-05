@@ -34,4 +34,12 @@ public class CalculadoraTest {
             () -> calculadora.dividir(10, 0)
         );
     }
+
+    @Test
+    public void probarPotencia(){
+        assertEquals(8, calculadora.elevar(2,3));
+        assertEquals(9, calculadora.elevar(3,2));
+        assertEquals(1, calculadora.elevar(5,0));
+
+    }
 }
