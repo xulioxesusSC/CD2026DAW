@@ -9,6 +9,11 @@ public class ContaBancaria {
     private boolean bloqueada;
 
     //Métodos que definen o comportamento
+    public ContaBancaria(){
+        this.titular = "Elon";
+        this.saldo = 10000000;
+        this.bloqueada = true;
+    }
 
     public ContaBancaria(String titular){
         this.titular = titular;
@@ -25,7 +30,7 @@ public class ContaBancaria {
 
         this.titular = titular;
         this.saldo = saldoInicial;
-        this.bloqueada = true;
+        this.bloqueada = false;
     }
 
     public void ingresar(double cantidade) {
